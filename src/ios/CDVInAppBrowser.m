@@ -653,8 +653,7 @@
       [self.toolbar setItems:@[self.closeButton, flexibleSpaceButton]];
     } else {
       [self.toolbar setItems:@[self.closeButton, flexibleSpaceButton, self.backButton, fixedSpaceButton, self.forwardButton]];
-    }
-    [self.toolbar setItems:@[self.closeButton, flexibleSpaceButton]];
+    }    
 
     self.view.backgroundColor = [UIColor grayColor];
     [self.view addSubview:self.toolbar];
